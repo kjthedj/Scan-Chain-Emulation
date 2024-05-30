@@ -1,0 +1,126 @@
+Configuration	interruptersequence
+STM32CubeMX 	6.8.1
+Date	04/22/2024
+MCU	STM32L552ZETxQ
+
+
+
+PERIPHERALS	MODES	FUNCTIONS	PINS
+ADC1	IN3 Single-ended	ADC1_IN3	PC2
+DEBUG	Trace Asynchronous Sw	DEBUG_JTMS-SWDIO	PA13 (JTMS/SWDIO)
+DEBUG	Trace Asynchronous Sw	DEBUG_JTCK-SWCLK	PA14 (JTCK/SWCLK)
+DEBUG	Trace Asynchronous Sw	DEBUG_JTDO-SWO	PB3 (JTDO/TRACESWO)
+LPUART1	Asynchronous	LPUART1_RX	PG8
+LPUART1	Asynchronous	LPUART1_TX	PG7
+PWR	WakeUp1	PWR_WKUP2	PC13
+PWR	Dead Battery Signals disabled	PWR_VS_DBSignals	VP_PWR_VS_DBSignals
+RCC	Crystal/Ceramic Resonator	RCC_OSC_IN	PH0-OSC_IN (PH0)
+RCC	Crystal/Ceramic Resonator	RCC_OSC_OUT	PH1-OSC_OUT (PH1)
+RCC	Crystal/Ceramic Resonator	RCC_OSC32_IN	PC14-OSC32_IN (PC14)
+RCC	Crystal/Ceramic Resonator	RCC_OSC32_OUT	PC15-OSC32_OUT (PC15)
+RTC	Activate RTC Clock Source	RTC_VS_RTC_Activate	VP_RTC_VS_RTC_Activate
+SYS	SysTick	SYS_VS_Systick	VP_SYS_VS_Systick
+TIM2	Internal Clock	TIM2_VS_ClockSourceINT	VP_TIM2_VS_ClockSourceINT
+UCPD1	Source	UCPD1_CC1	PA15 (JTDI)
+UCPD1	Source	UCPD1_CC2	PB15
+USB	Device (FS)	USB_DM	PA11
+USB	Device (FS)	USB_DP	PA12
+
+
+
+Pin Nb	PINs	FUNCTIONs	LABELs
+7	PC13	PWR_WKUP2	USER_BUTTON
+8	PC14-OSC32_IN (PC14)	RCC_OSC32_IN	
+9	PC15-OSC32_OUT (PC15)	RCC_OSC32_OUT	
+13	PF3	GPIO_Output	A_serial
+15	PF5	GPIO_Output	B_serial
+23	PH0-OSC_IN (PH0)	RCC_OSC_IN	
+24	PH1-OSC_OUT (PH1)	RCC_OSC_OUT	
+28	PC2	ADC1_IN3	VBUS_SENSE
+75	PB14	GPIO_EXTI14	UCPD_FLT
+76	PB15	UCPD1_CC2	
+92	PG7	LPUART1_TX	ST-LINK_VCP_TX
+93	PG8	LPUART1_RX	ST-LINK_VCP_RX
+97	PC7	GPIO_Output	LED_GREEN
+101	PA9	GPIO_Output	LED_RED
+103	PA11	USB_DM	
+104	PA12	USB_DP	
+105	PA13 (JTMS/SWDIO)	DEBUG_JTMS-SWDIO	
+109	PA14 (JTCK/SWCLK)	DEBUG_JTCK-SWCLK	
+110	PA15 (JTDI)	UCPD1_CC1	
+132	PB3 (JTDO/TRACESWO)	DEBUG_JTDO-SWO	
+134	PB5	GPIO_Output	UCPD_DBN
+136	PB7	GPIO_Output	LED_BLUE
+PERIPHERALS	MODES	FUNCTIONS	PINS
+ADC1	IN3 Single-ended	ADC1_IN3	PC2
+DEBUG	Trace Asynchronous Sw	DEBUG_JTMS-SWDIO	PA13 (JTMS/SWDIO)
+DEBUG	Trace Asynchronous Sw	DEBUG_JTCK-SWCLK	PA14 (JTCK/SWCLK)
+DEBUG	Trace Asynchronous Sw	DEBUG_JTDO-SWO	PB3 (JTDO/TRACESWO)
+LPUART1	Asynchronous	LPUART1_RX	PG8
+LPUART1	Asynchronous	LPUART1_TX	PG7
+PWR	WakeUp1	PWR_WKUP2	PC13
+PWR	Dead Battery Signals disabled	PWR_VS_DBSignals	VP_PWR_VS_DBSignals
+RCC	Crystal/Ceramic Resonator	RCC_OSC_IN	PH0-OSC_IN (PH0)
+RCC	Crystal/Ceramic Resonator	RCC_OSC_OUT	PH1-OSC_OUT (PH1)
+RCC	Crystal/Ceramic Resonator	RCC_OSC32_IN	PC14-OSC32_IN (PC14)
+RCC	Crystal/Ceramic Resonator	RCC_OSC32_OUT	PC15-OSC32_OUT (PC15)
+RTC	Activate RTC Clock Source	RTC_VS_RTC_Activate	VP_RTC_VS_RTC_Activate
+SYS	SysTick	SYS_VS_Systick	VP_SYS_VS_Systick
+TIM2	Internal Clock	TIM2_VS_ClockSourceINT	VP_TIM2_VS_ClockSourceINT
+UCPD1	Source	UCPD1_CC1	PA15 (JTDI)
+UCPD1	Source	UCPD1_CC2	PB15
+USB	Device (FS)	USB_DM	PA11
+USB	Device (FS)	USB_DP	PA12
+
+
+
+Pin Nb	PINs	FUNCTIONs	LABELs
+7	PC13	PWR_WKUP2	USER_BUTTON
+8	PC14-OSC32_IN (PC14)	RCC_OSC32_IN	
+9	PC15-OSC32_OUT (PC15)	RCC_OSC32_OUT	
+13	PF3	GPIO_Output	A_serial
+15	PF5	GPIO_Output	B_serial
+23	PH0-OSC_IN (PH0)	RCC_OSC_IN	
+24	PH1-OSC_OUT (PH1)	RCC_OSC_OUT	
+28	PC2	ADC1_IN3	VBUS_SENSE
+75	PB14	GPIO_EXTI14	UCPD_FLT
+76	PB15	UCPD1_CC2	
+92	PG7	LPUART1_TX	ST-LINK_VCP_TX
+93	PG8	LPUART1_RX	ST-LINK_VCP_RX
+97	PC7	GPIO_Output	LED_GREEN
+101	PA9	GPIO_Output	LED_RED
+103	PA11	USB_DM	
+104	PA12	USB_DP	
+105	PA13 (JTMS/SWDIO)	DEBUG_JTMS-SWDIO	
+109	PA14 (JTCK/SWCLK)	DEBUG_JTCK-SWCLK	
+110	PA15 (JTDI)	UCPD1_CC1	
+132	PB3 (JTDO/TRACESWO)	DEBUG_JTDO-SWO	
+134	PB5	GPIO_Output	UCPD_DBN
+136	PB7	GPIO_Output	LED_BLUE
+
+
+
+SOFTWARE PROJECT
+
+Project Settings : 
+Project Name : interruptersequence
+Project Folder : C:\Users\Kriti Jain\STM32CubeIDE\workspace_1.12.1\interruptersequence
+Toolchain / IDE : STM32CubeIDE
+Firmware Package Name and Version : STM32Cube FW_L5 V1.5.1
+
+
+Code Generation Settings : 
+STM32Cube MCU packages and embedded software packs : Copy only the necessary library files
+Generate peripheral initialization as a pair of '.c/.h' files per peripheral : No
+Backup previously generated files when re-generating : No
+Delete previously generated files when not re-generated : Yes
+Set all free pins as analog (to optimize the power consumption) : No
+
+
+Toolchains Settings : 
+Compiler Optimizations : 
+
+
+
+
+
