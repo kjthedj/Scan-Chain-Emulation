@@ -1,0 +1,4 @@
+Running: xsim.dir/Adder_4bit_with_ScanChain_tb_behav/xsimk.exe -simmode gui -wdb Adder_4bit_with_ScanChain_tb_behav.wdb -simrunnum 0 -socket 56930
+Design successfully loaded
+Design Loading Memory Usage: 11652 KB (Peak: 11652 KB)
+Design Loading CPU Usage: 0 ms

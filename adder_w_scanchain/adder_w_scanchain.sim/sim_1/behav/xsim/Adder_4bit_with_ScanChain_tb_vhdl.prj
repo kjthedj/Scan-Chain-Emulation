@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../adder_w_scanchain.srcs/sources_1/new/adder_w_scan_chain.vhd" \
+"../../../../adder_w_scanchain.srcs/sim_1/new/adder_w_scan_tb.vhd" \
+
+# Do not sort compile order
+nosort

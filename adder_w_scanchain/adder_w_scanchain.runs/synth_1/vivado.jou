@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Wed May 22 20:30:24 2024
+# Process ID: 30668
+# Current directory: C:/KRITI_JAIN/Nanyang_Technological_University/ACADEMIC_MATTERS/y3s2-intern_at_tlntu/vivado_projects/adder_w_scanchain/adder_w_scanchain.runs/synth_1
+# Command line: vivado.exe -log Adder_4bit_with_ScanChain.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Adder_4bit_with_ScanChain.tcl
+# Log file: C:/KRITI_JAIN/Nanyang_Technological_University/ACADEMIC_MATTERS/y3s2-intern_at_tlntu/vivado_projects/adder_w_scanchain/adder_w_scanchain.runs/synth_1/Adder_4bit_with_ScanChain.vds
+# Journal file: C:/KRITI_JAIN/Nanyang_Technological_University/ACADEMIC_MATTERS/y3s2-intern_at_tlntu/vivado_projects/adder_w_scanchain/adder_w_scanchain.runs/synth_1\vivado.jou
+# Running On: LAPTOP-QOIM0AOE, OS: Windows, CPU Frequency: 2995 MHz, CPU Physical cores: 4, Host memory: 17014 MB
+#-----------------------------------------------------------
+source Adder_4bit_with_ScanChain.tcl -notrace

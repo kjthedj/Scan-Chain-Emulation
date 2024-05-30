@@ -1,0 +1,1 @@
+--incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "secureip" --snapshot "Adder_4bit_with_ScanChain_tb_behav" "xil_defaultlib.Adder_4bit_with_ScanChain_tb" -log "elaborate.log" 
